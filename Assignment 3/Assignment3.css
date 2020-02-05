@@ -1,0 +1,50 @@
+h1 {
+  color: #0077ff;
+}
+
+h2 {
+  background-color: #098765;
+}
+
+p {
+  color: #ff9555;
+}
+
+a {
+ color: #ff0000;
+ text-decoration: none;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: #ffff00;
+ text-decoration: underline;
+}
+
+#Info {
+  color: #00ffff;
+}
+
+.ListItems {
+  color: #ff00ff;
+}
+
+.Detail {
+  color: #991111;
+}
+
+.GPA {
+  color: #000000;
+  text-decoration: underline;
+}
+
+#AdditionalRequirements {
+  background-color: #567890;
+}
