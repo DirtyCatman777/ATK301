@@ -1,0 +1,100 @@
+body {
+  font-family: Poiret One, sans-serif;
+  font-weight: bold;
+  background-color: #99ccff;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+}
+
+header nav {
+  margin: 125px 0px 50px 50px;
+}
+
+header li {
+  padding: 0px 10px 0px 10px;
+}
+
+.logo {
+  float:left;
+}
+
+.banner {
+  grid-column: span 12;
+  margin: 20px;
+}
+
+main {
+  text-align: center;
+}
+
+.bigNav li {
+  margin: 50px;
+}
+
+.pics li {
+  margin: 25px;
+}
+
+footer {
+  grid-column: span 12;
+  text-align: center;
+}
+
+footer ul {
+  float: left;
+  margin-left: 100px;
+}
+
+footer ul li {
+  padding: 0px 15px 0px 15px;
+}
+
+.footBorderTop {
+  border-top: 3px solid black;
+  padding-top: 3px;
+}
+
+.footBorderBottom {
+  border-bottom: 3px solid black;
+  padding-bottom: 4px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li:hover {
+  background-color: #33ccff;
+}
+
+img {
+  display: block;
+}
+p {
+  width: 530px;
+  margin: 10px 0 0 600px;
+  font-size: 20px;
+}
