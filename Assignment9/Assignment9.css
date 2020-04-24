@@ -2,7 +2,6 @@ body {
   font-family: 'Poiret One', cursive;
   font-weight: bold;
   background-color: #99ccff;
-  grid-column: span 12;
   text-align: center;
 }
 
@@ -31,8 +30,8 @@ header {
   margin-bottom: 10px;
 }
 
-.logo {
-  float:left;
+#sticker {
+  float: left;
 }
 
 header nav {
@@ -55,6 +54,7 @@ header li a {
 
 main {
   text-align: center;
+  grid-column: span 12;
 }
 
 .banner {
@@ -77,6 +77,10 @@ main ul {
 }
 
 .pics img {
+  border-radius: 15px;
+}
+
+.pics iframe {
   border-radius: 15px;
 }
 
