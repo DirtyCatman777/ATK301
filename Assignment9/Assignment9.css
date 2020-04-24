@@ -30,12 +30,14 @@ header {
   margin-bottom: 10px;
 }
 
-#sticker {
+/* Im not sure why this was disregarded */
+.logo {
   float: left;
 }
 
 header nav {
-  margin: 75px 0px 0px 0px;
+  display: inline-block;
+  text-align: center;
 }
 
 header li {

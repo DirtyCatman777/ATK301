@@ -6,20 +6,15 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 	<link href="Assignment9.css" rel="stylesheet" type="text/css">
 
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.sticky.js"></script>
-	<script>
-	    $(window).load(function(){
-	      $("#sticker").sticky({ topSpacing: 0, center:true, className:"hey" });
-	    });
-	</script>
+	<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/jquery.pin.min.js"></script>
 
 </head>
 <body>
 	<div id="wrapper">
 
 		<Header>
-			<img id="sticker" src="Images/logo.png" alt="Ezra's Logo">
+			<img class="logo" src="Images/logo.png" alt="Ezra's Logo">
 
 			<nav>
 				<ul>
@@ -59,5 +54,9 @@
 		</footer>
 
 	</div>
+
 </body>
+
+<script> $(".logo").pin() </script>
+
 </html>
