@@ -6,13 +6,18 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 	<link href="Assignment9.css" rel="stylesheet" type="text/css">
 
-	<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+	<script
+	  src="https://code.jquery.com/jquery-2.2.4.min.js"
+	  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+	  crossorigin="anonymous">
+	</script>
 
 </head>
 <body>
 	<div id="wrapper">
 
 		<Header>
+
 			<img class="logo" src="Images/logo.png" alt="Ezra's Logo">
 
 			<nav>
@@ -20,6 +25,7 @@
 					<li> <a href="SubPage1"> Photography  </a></li>
 					<li> <a href="SubPage2"> Motioin Graphics  </a></li>
 					<li> <a href="SubPage3"> Business Cards  </a></li>
+					<li> <a href="ATK201"> ATK 201 </a></li>
 				</ul>
 			</nav>
 		</Header>
@@ -54,9 +60,9 @@
 
 	</div>
 
-</body>
+	<script type="text/javascript" src="js/jquery.pin.min.js"></script>
+	<script> $("img.logo").pin() </script>
 
-<script type="text/javascript" src="js/jquery.pin.min.js"></script>
-<script> $("img.logo").pin() </script>
+</body>
 
 </html>
