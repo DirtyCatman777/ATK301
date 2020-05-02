@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ATK 201</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+	<link href="Atk201.css" rel="stylesheet" type="text/css">
+
+	<script
+	  src="https://code.jquery.com/jquery-2.2.4.min.js"
+	  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+	  crossorigin="anonymous">
+	</script>
+
+</head>
+<body>
+	<div id="wrapper">
+
+		<Header>
+
+			<a href ="AboutMe.html"> <img class="logo" src="Images/logo.png" alt="Ezra's Logo"></a>
+
+			<nav>
+				<ul>
+					<li> <a href="Assignment9.html"> Home  </a></li>
+					<li> <a href="Photography.html"> Photography  </a></li>
+					<li> <a href="MotionGraphics.html"> Motion Graphics  </a></li>
+					<li> <a href="BusinessCards.html"> Business Cards  </a></li>
+					<li> <a href="ATK201.html"> ATK 201 </a></li>
+				</ul>
+			</nav>
+		</Header>
+
+		<main>
+			<img src="Images/MountainsThumb.jpg" alt="Mountains">
+
+			<div class="shuffle-group">
+				<div data-si-mousemove-trigger="100" class="shuffle-me">
+					<div class="images">
+						<img src="Images/Image Option 1Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 2Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 3Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 4Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 5Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 6Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 7Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 8Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 9Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 10Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 11Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 12Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 13Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 14Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 15Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 16Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 17Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 18Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 19Thumb.jpg" alt="Banner">
+						<img src="Images/Image Option 20Thumb.jpg" alt="Banner">
+					</div>
+				</div>
+			</div>
+
+			<img src="Images/JeffThumb.png" alt="Jeff">
+
+			<div data-si-mousemove-trigger="175" class="shuffle-me">
+				<div class="images">
+					<img src="Images/Hand 1Thumb.jpg" alt="Hand Painting">
+					<img src="Images/Hand 2Thumb.jpg" alt="Hand Painting">
+				</div>
+			</div>
+
+			<div data-si-mousemove-trigger="100" class="shuffle-me">
+				<div class="images">
+					<img src="Images/Lena 1Thumb.jpg" alt="Fox Drawing">
+					<img src="Images/Lena 2Thumb.jpg" alt="Fox Drawing">
+					<img src="Images/Amplify Thumb.png" alt="Screenshot">
+				</div>
+			</div>
+
+			<img src="Images/PresentationThumb.png" alt="Screenshot">
+		</main>
+
+		<footer>
+		</footer>
+
+	</div>
+
+	<script type="text/javascript" src="js/jquery.pin.min.js"></script>
+	<script> $("img.logo").pin() </script>
+
+	<script type="text/javascript" src="js/jquery.shuffle-images.min.js"></script>
+	<script>$(document).ready(function(){$(".shuffle-me").shuffleImages({target: ".images > img"});});</script>
+
+</body>
+
+</html>
