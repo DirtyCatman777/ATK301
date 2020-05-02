@@ -63,6 +63,9 @@ Main {
 main img {
   border-radius: 15px;
   float: left;
+  width: 760px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 h1 {
@@ -83,4 +86,38 @@ p {
   font-size: 19px;
   background-color: #77ccff;
   color: white;
+}
+
+.inspire {
+  width: 200px;
+}
+
+.present {
+  margin: 0px 0px 0px 0px;
+  padding: 10px 0px 10px 0px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.headPresent {
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+.download {
+  padding: 0px 7px 0px 7px;
+  background-color: rgba(204,181,255,1);
+  border-radius: 15px;
+}
+
+.download:hover {
+  background-color: rgba(200,170,255,1)
+}
+
+main iframe {
+  border-radius: 15px;
+  float: left;
+  width: 760px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
