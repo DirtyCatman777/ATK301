@@ -58,7 +58,6 @@ header li a {
 
 Main {
   grid-column: span 12;
-  text-align: center;
   margin: 10px 20px 10px 23px;
 }
 
@@ -66,8 +65,4 @@ main img {
   margin: 4px;
   border-radius: 15px;
   float: left;
-}
-
-div {
-  text-align: center;
 }
