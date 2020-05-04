@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flowers</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link href="SubSub.css" rel="stylesheet" type="text/css">
+	<link href="simple-lightbox.min.css" rel="stylesheet" />
+
+	<script
+	  src="https://code.jquery.com/jquery-2.2.4.min.js"
+	  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+	  crossorigin="anonymous">
+	</script>
+
+</head>
+<body>
+	<div id="wrapper">
+
+		<Header>
+
+			<a href ="AboutMe.html"> <img class="logo" src="Images/logo.png" alt="Ezra's Logo"></a>
+
+			<nav>
+				<ul>
+					<li> <a href="Assignment9.html"> Home  </a></li>
+					<li> <a href="Photography.html"> Photography  </a></li>
+					<li> <a href="MotionGraphics.html"> Motion Graphics  </a></li>
+					<li> <a href="BusinessCards.html"> Business Cards  </a></li>
+					<li> <a href="ATK201.html"> ATK 201 </a></li>
+				</ul>
+			</nav>
+		</Header>
+
+		<main>
+			<div class="gallery">
+				<a href="Flowers/Bud.png" class="big" rel="rel1"><img src="Flowers/Bud.png" alt="Picture" title="Bud"></a>
+				<a href="Flowers/Magenta.JPG" class="big" rel="rel1"><img src="Flowers/Magenta.JPG" alt="Picture" title="Magenta"></a>
+				<a href="Flowers/Pink.JPG" class="big" rel="rel1"><img src="Flowers/Pink.JPG" alt="Picture" title="Pink"></a>
+				<a href="Flowers/Red.jpg" class="big" rel="rel1"><img src="Flowers/Red.jpg" alt="Picture" title="Red"></a>
+				<a href="Flowers/White.jpg" class="big" rel="rel1"><img src="Flowers/White.jpg" alt="Picture" title="White"></a>
+				<a href="Flowers/Purple.jpg" class="big" rel="rel1"><img src="Flowers/Purple.jpg" alt="Picture" title="Purple"></a>
+				<a href="Flowers/Yellow.jpg" class="big" rel="rel1"><img src="Flowers/Yellow.jpg" alt="Picture" title="Yellow"></a>
+			</div>
+
+			<h1> Flowers </h1>
+
+			<p>	This is a floral series that I am glad to show off on my website. I enjoy the natural asthetic of flowers and wanted to captue their beauty in photography. </p>
+		</main>
+
+		<footer>
+		</footer>
+
+	</div>
+
+	<script type="text/javascript" src="js/jquery.pin.min.js"></script>
+	<script> $("img.logo").pin() </script>
+
+	<script type="text/javascript" src="js/simple-lightbox.jquery.min.js"></script>
+	<script> var gallery = $('.gallery a').simpleLightbox({/* options */}); </script>
+
+
+</body>
+
+</html>

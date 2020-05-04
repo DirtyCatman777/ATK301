@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Photography</title>
 	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
-	<link href="Construction.css" rel="stylesheet" type="text/css">
+	<link href="Atk201.css" rel="stylesheet" type="text/css">
 
 	<script
 	  src="https://code.jquery.com/jquery-2.2.4.min.js"
@@ -32,11 +32,75 @@
 		</Header>
 
 		<main>
-		<img src="Images/construction.png" alt="Construction Sign">
+			<a href="Flowers.html"> <div class="shuffle-group">
+			 <div data-si-mousemove-trigger="100" class="shuffle-me">
+					<div class="images">
+						<img src="Flowers/BudThumb.png" alt="Flower">
+						<img src="Flowers/MagentaThumb.JPG" alt="Flower">
+						<img src="Flowers/PinkThumb.JPG" alt="Flower">
+						<img src="Flowers/RedThumb.jpg" alt="Flower">
+						<img src="Flowers/WhiteThumb.jpg" alt="Flower">
+						<img src="Flowers/PurpleThumb.jpg" alt="Flower">
+						<img src="Flowers/YellowThumb.jpg" alt="Flower">
+					</div>
+				</div>
+			</div> </a>
+
+			<a href="Shapes.html"> <div data-si-mousemove-trigger="150" class="shuffle-me">
+				<div class="images">
+					<img src="Shapes/BallThumb.jpg" alt="Picture">
+					<img src="Shapes/HeartsThumb.jpg" alt="Picture">
+					<img src="Shapes/MarblesThumb.jpg" alt="Picture">
+					<img src="Shapes/PuzzleThumb.jpg" alt="Picture">
+				</div>
+			</div> </a>
+
+			<a href="Water.html"> <div data-si-mousemove-trigger="75" class="shuffle-me">
+				<div class="images">
+					<img src="Water/BridgeThumb.jpg" alt="Picture">
+					<img src="Water/Car doorThumb.jpg" alt="Picture">
+					<img src="Water/DPThumb.jpg" alt="Picture">
+					<img src="Water/DrainThumb.jpg" alt="Picture">
+					<img src="Water/DripsThumb.jpg" alt="Picture">
+					<img src="Water/Leaf 1Thumb.jpg" alt="Picture">
+					<img src="Water/Leaf 2Thumb.jpg" alt="Picture">
+					<img src="Water/Leaf 3Thumb.jpg" alt="Picture">
+					<img src="Water/Leaf 4Thumb.jpg" alt="Picture">
+					<img src="Water/PipeThumb.jpg" alt="Picture">
+					<img src="Water/RainThumb.jpg" alt="Picture">
+					<img src="Water/Red WaterThumb.jpg" alt="Picture">
+					<img src="Water/Rock in the riverThumb.jpg" alt="Picture">
+					<img src="Water/ShoreThumb.jpg" alt="Picture">
+					<img src="Water/SkylineThumb.jpg" alt="Picture">
+					<img src="Water/StreamThumb.jpg" alt="Picture">
+					<img src="Water/Tire in the waterThumb.jpg" alt="Picture">
+					<img src="Water/WaterThumb.jpg" alt="Picture">
+				</div>
+			</div> </a>
+
+			<a href="Portraits.html"> <div data-si-mousemove-trigger="175" class="shuffle-me">
+				<div class="images">
+					<img src="Portraits/AndrewThumb.png" alt="Picture">
+					<img src="Portraits/Self PortraitThumb.jpg" alt="Picture">
+					<img src="Portraits/TerranceThumb.jpg" alt="Picture">
+				</div>
+			</div> </a>
+
+			<a href="Misc.html"> <div data-si-mousemove-trigger="125" class="shuffle-me">
+				<div class="images">
+					<img src="Misc/CandleThumb.jpg" alt="Picture">
+					<img src="Misc/HandsThumb.jpg" alt="Picture">
+					<img src="Misc/LampThumb.jpg" alt="Picture">
+					<img src="Misc/LenseThumb.jpg" alt="Picture">
+					<img src="Misc/Red EyesThumb.jpg" alt="Picture">
+					<img src="Misc/TreeThumb.jpg" alt="Picture">
+					<img src="Misc/WindowThumb.jpg" alt="Picture">
+
+				</div>
+			</div> </a>
 		</main>
 
 		<footer>
-			<p> Sorry but this page is curently under construction. Check out my other pages in the tabs above!	</p>
 		</footer>
 
 	</div>
@@ -44,9 +108,9 @@
 	<script type="text/javascript" src="js/jquery.pin.min.js"></script>
 	<script> $("img.logo").pin() </script>
 
-</body>
+	<script type="text/javascript" src="js/jquery.shuffle-images.min.js"></script>
+	<script>$(document).ready(function(){$(".shuffle-me").shuffleImages({target: ".images > img"});});</script>
 
-<!--Jquery plugin for images
-https://github.com/peachananr/shuffle-images -->
+</body>
 
 </html>
